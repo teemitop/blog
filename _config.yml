@@ -1,0 +1,24 @@
+# Site settings
+title: Teemi Blog
+header-img: img/home-bg.jpg
+email: simonzw@yeah.net
+copyright_name: Teemi Blog
+description: "Teemi Blog"
+url: "http://teemi.top"
+twitter_username: 
+github_username:  teemitop
+facebook_username:  
+email_username:  simonzw@yeah.net
+
+# Google Analytics
+# To enable google analytics, uncomment below line with a valid Google Tracking ID
+# google_tracking_id:
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 6
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+
+gems: [jekyll-paginate, jekyll-feed]
